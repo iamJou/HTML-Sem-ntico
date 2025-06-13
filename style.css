@@ -1,1 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header{
+    background-image: linear-gradient(180deg, rgb(3, 3, 83), rgb(60, 136, 199));
+    color: aliceblue;           
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    padding: 25px 0;
+    margin: 20px 0;
+}
+nav{
+    margin: 20px 0;
+}
+
+section{
+    padding: 10px;
+}
+
+footer{
+    padding: 25px 0;
+    margin: 20px 0;
+}
+
+nav li{
+    background-image: linear-gradient(180deg, rgb(3, 3, 83), rgb(60, 136, 199));
+    padding: 10px;
+}
+
+.button{
+    background-image: linear-gradient(180deg, rgb(60, 136, 199), rgb(3, 3, 83));
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: "Jersey", sans-serif;
+}
